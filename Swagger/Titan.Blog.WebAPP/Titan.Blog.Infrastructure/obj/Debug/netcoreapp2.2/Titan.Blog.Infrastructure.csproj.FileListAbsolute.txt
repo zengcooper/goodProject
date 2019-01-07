@@ -1,0 +1,15 @@
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\bin\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.deps.json
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\bin\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.runtimeconfig.json
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\bin\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.runtimeconfig.dev.json
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\bin\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.dll
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\bin\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.pdb
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\bin\Debug\netcoreapp2.2\Titan.Blog.Model.dll
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\bin\Debug\netcoreapp2.2\Titan.Blog.Model.pdb
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\bin\Debug\netcoreapp2.2\Titan.Blog.Model.xml
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\obj\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.csprojAssemblyReference.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\obj\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\obj\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.AssemblyInfoInputs.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\obj\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.AssemblyInfo.cs
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\obj\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.csproj.CopyComplete
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\obj\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.dll
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Infrastructure\obj\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.pdb

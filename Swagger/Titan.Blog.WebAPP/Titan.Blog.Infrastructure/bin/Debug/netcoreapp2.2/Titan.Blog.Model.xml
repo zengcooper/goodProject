@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Titan.Blog.Model</name>
+    </assembly>
+    <members>
+        <member name="T:Titan.Blog.Model.CommonModel.XmlModel">
+            <summary>
+            XML实体
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.Model.CommonModel.XmlModel.Name">
+            <summary>
+            文本
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.Model.CommonModel.XmlModel.Value">
+            <summary>
+            数值
+            </summary>
+        </member>
+        <member name="T:Titan.Model.DataModel.Author">
+            <summary>
+             服务器大区
+            </summary>
+        </member>
+    </members>
+</doc>

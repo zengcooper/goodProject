@@ -1,0 +1,432 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Titan.Blog.AppService</name>
+    </assembly>
+    <members>
+        <member name="M:Titan.Blog.AppService.DomainService.AuthorDomainSvc.GeRoleModule">
+            <summary>
+            获取系统中所有的权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.AddModel(Titan.Model.DataModel.Author)">
+            <summary>
+            添加对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.UpdateModel(Titan.Model.DataModel.Author)">
+            <summary>
+            修改对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.DeleteModel(Titan.Model.DataModel.Author)">
+            <summary>
+            删除对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.FindModelById(System.Guid)">
+            <summary>
+            根据主键查询对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.FindModelByValue(System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.Boolean}})">
+            <summary>
+            根据表达式查询集合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.GetModelList(System.Int32,System.Int32,System.Int32@,System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.Boolean}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.String}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.String}},System.Boolean)">
+            <summary>
+            根据根据条件查询并分页
+            </summary>
+            <param name="pageIndex">页面索引</param>
+            <param name="pageSize">页面大小</param>
+            <param name="rowCount">数据总数</param>
+            <param name="selector">查询条件lambda</param>
+            <param name="orderby1">条件1：按string排序</param>
+            <param name="orderby2">条件2：按string排序</param>
+            <param name="isAsc">是否升序</param>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.GetModelList(System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.Boolean}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.String}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.String}},System.Boolean)">
+            <summary>
+            根据根据条件查询并分页
+            </summary>
+            <param name="selector">查询条件lambda</param>
+            <param name="orderby1">条件1：按string排序</param>
+            <param name="orderby2">条件2：按string排序</param>
+            <param name="isAsc">是否升序</param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.GetModelListT(System.Int32,System.Int32,System.Int32@,System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.Boolean}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.DateTime}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.DateTime}},System.Boolean)">
+            <summary>
+            根据根据条件查询并分页
+            </summary>
+            <param name="pageIndex">页面索引</param>
+            <param name="pageSize">页面大小</param>
+            <param name="rowCount">数据总数</param>
+            <param name="selector">查询条件lambda</param>
+            <param name="orderby1">条件1：按DateTime排序</param>
+            <param name="orderby2">条件2：按DateTime排序</param>
+            <param name="isAsc">是否升序</param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.GetModelListT(System.Int32,System.Int32,System.Int32@,System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.Boolean}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.DateTime}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.String}},System.Boolean)">
+            <summary>
+            根据根据条件查询并分页
+            </summary>
+            <param name="pageIndex">页面索引</param>
+            <param name="pageSize">页面大小</param>
+            <param name="rowCount">数据总数</param>
+            <param name="selector">查询条件lambda</param>
+            <param name="orderby1">条件1：按DateTime排序</param>
+            <param name="orderby2">条件2：按string排序</param>
+            <param name="isAsc">是否升序</param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.GetModelListT(System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.Boolean}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.DateTime}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.DateTime}},System.Boolean)">
+            <summary>
+            根据根据条件查询
+            </summary>
+            <param name="selector">查询条件lambda</param>
+            <param name="orderby1">条件1：按DateTime排序</param>
+            <param name="orderby2">条件2：按DateTime排序</param>
+            <param name="isAsc">是否升序</param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.GetModelListOrderBy(System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.Boolean}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.Int32}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.DateTime}},System.Boolean)">
+            <summary>
+            根据根据条件查询(多组合查询)
+            </summary>
+            <param name="selector">查询条件lambda</param>
+            <param name="orderby1">条件1：按int排序</param>
+            <param name="orderby2">条件2：按DateTime排序</param>
+            <param name="isAsc">是否升序</param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.AppService.ModelService.AuthorSvc.GetModelListOrderBy(System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.Boolean}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.DateTime}},System.Linq.Expressions.Expression{System.Func{Titan.Model.DataModel.Author,System.String}},System.Boolean)">
+            <summary>
+            根据根据条件查询(多组合查询)
+            </summary>
+            <param name="selector">查询条件lambda</param>
+            <param name="orderby1">条件1：按DateTime排序</param>
+            <param name="orderby2">条件2：按string排序</param>
+            <param name="isAsc">是否升序</param>
+            <returns></returns>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.JsonResultDto.PageInfo">
+            <summary>
+            分页信息
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.JsonResultDto.Version">
+            <summary>
+            版本号
+            </summary>
+        </member>
+        <member name="T:Titan.AppService.ModelDTO.PageInfo">
+            <summary>
+            分页信息
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.PageInfo.PageNumber">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.PageInfo.PageSize">
+            <summary>
+            页大小
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.PageInfo.TotalPages">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.PageInfo.TotalRecords">
+            <summary>
+            总记录数
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.PageInfo.Url">
+            <summary>
+            请求Url
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.PageInfo.PageParas">
+            <summary>
+            参数
+            </summary>
+        </member>
+        <member name="T:Titan.AppService.ModelDTO.PagePara">
+            <summary>
+            参数
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.PagePara.Self">
+            <summary>
+            当前页
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.PagePara.First">
+            <summary>
+            首页
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.PagePara.Last">
+            <summary>
+            末页
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.PagePara.Privious">
+            <summary>
+            前一页
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.PagePara.Next">
+            <summary>
+            后一页
+            </summary>
+        </member>
+        <member name="T:Titan.AppService.ModelDTO.JsonPara">
+            <summary>
+            Json参数
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.JsonPara.PageNumber">
+            <summary>
+            页码对于返回IEnumerable类型的方法添加Paged特性来使用通用分页
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.JsonPara.Version">
+            <summary>
+            版本号
+            </summary>
+        </member>
+        <member name="T:Titan.AppService.ModelDTO.MethodParameter">
+            <summary>
+            参数键值对
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.LoginDto.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.LoginDto.UserId">
+            <summary>
+            账号Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.LoginDto.UserPassWord">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMDto.DataBackMId">
+            <summary>
+             数据库备份管理主键Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMDto.SysEmployeeId">
+            <summary>
+             用户主键Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMDto.DataBackMFileName">
+            <summary>
+             数据库备份文件名
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMDto.DataBackMStartTime">
+            <summary>
+             数据库备份开始时间
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMDto.DataBackMEndTime">
+            <summary>
+             数据库备份结束时间
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMDto.DataBackMFileSize">
+            <summary>
+             数据库文件大小
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMDto.DataBackMFilePath">
+            <summary>
+             数据库文件路径
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMAddorUpdateDto.DataBackMId">
+            <summary>
+             数据库备份管理主键Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMAddorUpdateDto.SysEmployeeId">
+            <summary>
+             用户主键Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMAddorUpdateDto.DataBackMFileName">
+            <summary>
+             数据库备份文件名
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMAddorUpdateDto.DataBackMStartTime">
+            <summary>
+             数据库备份开始时间
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMAddorUpdateDto.DataBackMEndTime">
+            <summary>
+             数据库备份结束时间
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMAddorUpdateDto.DataBackMFileSize">
+            <summary>
+             数据库文件大小
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMAddorUpdateDto.DataBackMFilePath">
+            <summary>
+             数据库文件路径
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMLookDto.DataBackMId">
+            <summary>
+             数据库备份管理主键Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMLookDto.SysEmployeeId">
+            <summary>
+             用户主键Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMLookDto.DataBackMFileName">
+            <summary>
+             数据库备份文件名
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMLookDto.DataBackMStartTime">
+            <summary>
+             数据库备份开始时间
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMLookDto.DataBackMEndTime">
+            <summary>
+             数据库备份结束时间
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMLookDto.DataBackMFileSize">
+            <summary>
+             数据库文件大小
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysDataBackMLookDto.DataBackMFilePath">
+            <summary>
+             数据库文件路径
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysHandleLogAddorUpdateDto.SysHandleLogId">
+            <summary>
+             操作记录主键Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysHandleLogAddorUpdateDto.SysEmployeeId">
+            <summary>
+             用户主键Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysHandleLogAddorUpdateDto.SysTitleId">
+            <summary>
+             系统模块主键Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysHandleLogAddorUpdateDto.HandleTime">
+            <summary>
+             操作时间
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysHandleLogAddorUpdateDto.HandleAction">
+            <summary>
+             操作动作
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysHandleLogAddorUpdateDto.HandleDataId">
+            <summary>
+             业务Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysHandleLogAddorUpdateDto.HandleLogIP">
+            <summary>
+             IP地址
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysHandleLogAddorUpdateDto.HandleActionCID">
+            <summary>
+             日志所属机构Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysHandleLogAddorUpdateDto.HandleLogDesc">
+            <summary>
+             备注
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysHandleLogAddorUpdateDto.Isdelete">
+            <summary>
+             是否删除
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysTitleDto.SysTitleId">
+            <summary>
+             系统模块主键Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysTitleDto.TitleName">
+            <summary>
+             模块名称
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysTitleDto.TitleUrl">
+            <summary>
+             模块地址
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysTitleDto.IsDisplay">
+            <summary>
+             是否显示
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysTitleDto.TitleOrderIndex">
+            <summary>
+             排序
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysTitleDto.TitleFatherId">
+            <summary>
+             父Id
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysTitleDto.TitleImgUrl">
+            <summary>
+             模块图标地址
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysTitleDto.Isdelete">
+            <summary>
+             是否删除
+            </summary>
+        </member>
+        <member name="P:Titan.AppService.ModelDTO.SysTitleDto.TitleDesc">
+            <summary>
+             备注
+            </summary>
+        </member>
+    </members>
+</doc>

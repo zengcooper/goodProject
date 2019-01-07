@@ -1,0 +1,658 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Titan.Blog.WebAPP</name>
+    </assembly>
+    <members>
+        <member name="M:Titan.Blog.WebAPP.Auth.JWT.JwtHelper.IssueJWT(Titan.Blog.WebAPP.Auth.JWT.TokenModelJWT)">
+            <summary>
+            颁发JWT字符串
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Auth.JWT.JwtHelper.SerializeJWT(System.String)">
+            <summary>
+            解析
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Auth.JWT.TokenModelJWT">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.JWT.TokenModelJWT.Uid">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.JWT.TokenModelJWT.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.JWT.TokenModelJWT.Work">
+            <summary>
+            职能
+            </summary>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Auth.JWT.JwtTokenAuth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Titan.Blog.WebAPP.Auth.JWT.JwtTokenAuth._next">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Auth.JWT.JwtTokenAuth.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Auth.JWT.JwtTokenAuth.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Auth.Policys.JwtToken">
+            <summary>
+            JWTToken生成类
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Auth.Policys.JwtToken.BuildJwtToken(System.Security.Claims.Claim[],Titan.Blog.WebAPP.Auth.Policys.PermissionRequirement)">
+            <summary>
+            获取基于JWT的Token
+            </summary>
+            <param name="claims">需要在登陆的时候配置</param>
+            <param name="permissionRequirement">在startup中定义的参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Auth.Policys.Permission">
+            <summary>
+            用户或角色或其他凭据实体
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.Permission.Role">
+            <summary>
+            用户或角色或其他凭据名称
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.Permission.Url">
+            <summary>
+            请求Url
+            </summary>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Auth.Policys.PermissionHandler">
+            <summary>
+            权限授权处理器
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.PermissionHandler.Schemes">
+            <summary>
+            验证方案提供对象
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.PermissionHandler._authorDomainSvc">
+            <summary>
+            services 层注入
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Auth.Policys.PermissionHandler.#ctor(Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider,Titan.Blog.AppService.DomainService.AuthorDomainSvc)">
+            <summary>
+            构造函数注入
+            </summary>
+            <param name="schemes"></param>
+            <param name="roleModulePermissionServices"></param>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Auth.Policys.PermissionRequirement">
+            <summary>
+            必要参数类，
+            继承 IAuthorizationRequirement，用于设计自定义权限处理器PermissionHandler
+            因为AuthorizationHandler 中的泛型参数 TRequirement 必须继承 IAuthorizationRequirement
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.PermissionRequirement.Permissions">
+            <summary>
+            用户权限集合
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.PermissionRequirement.DeniedAction">
+            <summary>
+            无权限action
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.PermissionRequirement.ClaimType">
+            <summary>
+            认证授权类型
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.PermissionRequirement.LoginPath">
+            <summary>
+            请求路径
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.PermissionRequirement.Issuer">
+            <summary>
+            发行人
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.PermissionRequirement.Audience">
+            <summary>
+            订阅人
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.PermissionRequirement.Expiration">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Auth.Policys.PermissionRequirement.SigningCredentials">
+            <summary>
+            签名验证
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Auth.Policys.PermissionRequirement.#ctor(System.String,System.Collections.Generic.List{Titan.Blog.WebAPP.Auth.Policys.Permission},System.String,System.String,System.String,Microsoft.IdentityModel.Tokens.SigningCredentials,System.TimeSpan)">
+            <summary>
+            构造
+            </summary>
+            <param name="deniedAction">拒约请求的url</param>
+            <param name="permissions">权限集合</param>
+            <param name="claimType">声明类型</param>
+            <param name="issuer">发行人</param>
+            <param name="audience">订阅人</param>
+            <param name="signingCredentials">签名验证实体</param>
+            <param name="expiration">过期时间</param>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Controllers.SwaggerController">
+            <summary>
+            Swagger 自定义功能
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.SwaggerController.ExportApiWord(System.String,System.String)">
+            <summary>
+            Swagger 文档导出
+            </summary>
+            <param name="type"></param>
+            <param name="version"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Controllers.v1.AuthorizationController">
+            <summary>
+            版本1-认证授权模块
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v1.AuthorizationController.GetJwtToken(System.String,System.String)">
+            <summary>
+            获取token
+            </summary>
+            <param name="userId">账号</param>
+            <param name="userPassword">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v1.AuthorizationController.BlogList">
+            <summary>
+            获取博客列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v1.AuthorizationController.BlogList(System.Guid)">
+            <summary>
+            根据Id获取博客详情
+            </summary>
+            <param name="id">博客Id</param>
+            <returns>博客详情</returns>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Controllers.v2.AuthorizationController">
+            <summary>
+            版本2-认证授权模块
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.AuthorizationController.GetJwtToken(System.String,System.String)">
+            <summary>
+            获取token授权密钥
+            </summary>
+            <param name="userId">账号</param>
+            <param name="userPassword">密码</param>
+            <returns></returns>
+            <remarks>
+            <h2>权限系统</h2>
+            <table border="1">
+                <tr>
+                    <td>普通用户角色：帐号0 密码0 可访问的接口：/api/Test/AddBlog</td>
+                    <td>普通管理员角色：帐号1 密码1 可访问的接口：/api/Test/ArrayTest</td>
+                    <td>超级管理员角色：帐号2 密码2 可访问的接口：/api/ImageTest/EFCoreTest /api/FileTest/UploadFile</td>
+                </tr>
+            </table>
+            <img src="https://raw.githubusercontent.com/HanJunJun/Titan.Blog.WebAPP/master/Titan.Blog.WebAPP/Titan.Blog.WebAPP/wwwroot/%E6%9D%83%E9%99%90%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E5%9B%BE.png" />
+            </remarks>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.AuthorizationController.BlogList">
+            <summary>
+            获取人列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.AuthorizationController.BlogList(System.Guid)">
+            <summary>
+            根据Id获取人详情
+            </summary>
+            <param name="id">博客Id</param>
+            <returns>博客详情</returns>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Controllers.v2.FileTestController">
+            <summary>
+            文件上传下载模块
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.FileTestController.UploadFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            上传文件（单个文件）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.FileTestController.UploadFileByName(Titan.Blog.WebAPP.Controllers.v2.FormWithFile)">
+            <summary>
+            上传文件（单个文件带名字）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.FileTestController.UploadFile(Microsoft.AspNetCore.Http.IFormFileCollection)">
+            <summary>
+            上传文件（多个文件）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.FileTestController.DownloadFile(System.String)">
+            <summary>
+            文件下载
+            </summary>
+            <param name="fileName">文件名</param>
+            <returns></returns>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Controllers.v2.FormWithFile">
+            <summary>
+            文件上传
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Controllers.v2.FormWithFile.Name">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Controllers.v2.FormWithFile.File">
+            <summary>
+            文件
+            </summary>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Controllers.v2.ImageTestController">
+            <summary>
+            图片模块
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.ImageTestController.Get(System.String)">
+            <summary>
+            获取图片
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.ImageTestController.EFCoreTest(System.String)">
+            <summary>
+            查询数据库
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <remarks>
+            <h2>Testing html table</h2>
+            <table border="1">
+                <tr>
+                    <td colspan="3"><span class="method">ONE</span></td>
+                </tr>
+                <tr>
+                    <td>ABC11</td>
+                    <td>ABC22</td>
+                    <td>ABC33</td>
+                </tr>
+            </table>
+            <img src="https://yuml.me/diagram/class/%5BSupplier%7Bbg:orange%7D%5D,%5BSupplier%5D-0..1%3E%5BAddress%5D,%5BSupplier%5D" />
+            <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
+            </remarks>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Controllers.v2.ManyRuleController">
+            <summary>
+            各种用法示例
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.ManyRuleController.PostForm(Titan.Blog.WebAPP.Controllers.v2.RegistrationForm)">
+            <summary>
+            FromForm 提交
+            </summary>
+            <param name="form"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Controllers.v2.RestfulAPIController">
+            <summary>
+            符合Restful规范的API示例
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.RestfulAPIController.AddUser(Titan.Blog.WebAPP.Controllers.v2.UserModel)">
+            <summary>
+            新增用户
+            </summary>
+            <param name="userModel">用户模型</param>
+            <returns></returns>
+            <remarks>
+            # HTTP动词
+            [RESTful 架构详解](http://www.runoob.com/w3cnote/restful-architecture.html)
+            * GET ： 从服务器获取资源
+            * POST ：在服务器新建一个资源
+            * PUT：在服务器更新资源（客户端提供改变后的完整资源，服务端返回完整的更新字段）
+            * PATCH：在服务器更新资源（客户端提供改变的属性，服务端返回只发生了更新的字段）
+            * DELETE：从服务器删除资源
+            </remarks>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.RestfulAPIController.DeleteUser(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.RestfulAPIController.UpdateUser(Titan.Blog.WebAPP.Controllers.v2.UserModel)">
+            <summary>
+            修改用户
+            </summary>
+            <param name="userModel">用户模型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.RestfulAPIController.GetUser">
+            <summary>
+            查询所有用户
+            </summary>
+            <param name="userModel">用户模型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.RestfulAPIController.GetUserById(System.String)">
+            <summary>
+            查询指定用户
+            </summary>
+            <param name="id">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Controllers.v2.UserModel">
+            <summary>
+            用户模型
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Controllers.v2.UserModel.UserId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Controllers.v2.UserModel.UserName">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Controllers.v2.UserModel.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Controllers.v2.UserModel.Age">
+            <summary>
+            出生日期
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Controllers.v2.UserModel.Birthday">
+            <summary>
+            出生日期
+            </summary>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Controllers.v2.TestController">
+            <summary>
+            Restful API 示例 
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.TestController.BlogList(System.Collections.Generic.List{System.String})">
+            <summary>
+            数组参数
+            </summary>
+            <param name="arrayStr"></param>
+            <returns></returns>
+            <remarks>
+            <h2>Testing html table</h2>
+            <table border="1">
+                <tr>
+                    <td colspan="3"><span class="method">ONE</span></td>
+                </tr>
+                <tr>
+                    <td>ABC11</td>
+                    <td>ABC22</td>
+                    <td>ABC33</td>
+                </tr>
+            </table>
+            <img src="https://yuml.me/diagram/class/%5BSupplier%7Bbg:orange%7D%5D,%5BSupplier%5D-0..1%3E%5BAddress%5D,%5BSupplier%5D" />
+            <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
+            </remarks>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.TestController.BlogList">
+            <summary>获取博客列表</summary>
+             <remarks>
+             Testing Markdown
+             *Italic*
+             **Bold**
+             # Heading 1
+             ## Heading 2
+             [Link](https://www.qq.com/)
+             * 列表1
+             * 列表2
+             * 列表3
+            
+             > Blockquote
+             `Inline code` with backticks
+             接口需要授权
+             ---
+             Block1 Line1
+             Block1 Line2
+            
+             Block2 Line1
+             Block2 Line2
+             </remarks>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.TestController.BlogList(System.String)">
+            <summary>
+            根据Id获取博客详情
+            </summary>
+            <param name="id">博客Id</param>
+            <returns>博客详情</returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.TestController.BlogLists(System.String)">
+            <summary>
+            根据Id获取博客详情
+            </summary>
+            <param name="id">博客Id</param>
+            <returns>博客详情</returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.TestController.Post(Titan.Blog.Model.CommonModel.XmlModel)">
+            <summary>
+            新增博客
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.TestController.Put(System.Int32,Titan.Blog.Model.CommonModel.XmlModel)">
+            <summary>
+            根据Id更新博客
+            </summary>
+            <param name="id">博客Id</param>
+            <param name="value">博客内容</param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.TestController.Delete(System.Int32)">
+            <summary>
+            根据Id删除博客
+            </summary>
+            <param name="id">博客Id</param>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.TestController.HiddenFunc1(System.String,System.String)">
+             <summary>
+             Hidden测试
+             </summary>
+             <param name="id"></param>
+             <param name="name"></param>
+             <returns></returns>
+             <remarks>
+             ## TESTING MARKDOWN TABLES
+             ### start table
+            
+             | Tables        | Are           | Cool  |
+             | ------------- |:-------------:| -----:|
+             | col 3 is      | right-aligned | $1600 |
+             | col 2 is      | centered      |   $12 |
+             | zebra stripes | are neat      |    $1 |
+            
+             ### end table
+             </remarks>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.TestController.HiddenFunc2(System.String,System.String)">
+             <summary>
+             Hidden2测试
+             </summary>
+             <param name="id"></param>
+             <param name="name"></param>
+             <returns></returns>
+             <remarks>
+             ## TESTING MARKDOWN TABLES
+             ### start table
+            
+             | Tables        | Are           | Cool  |
+             | ------------- |:-------------:| -----:|
+             | col 3 is      | right-aligned | $1600 |
+             | col 2 is      | centered      |   $12 |
+             | zebra stripes | are neat      |    $1 |
+            
+             ### end table
+             </remarks>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Controllers.v2.TestController.HiddenFunc(System.String,System.String)">
+            <summary>
+            ApiExplorerSettings隐藏测试
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+            <remarks>
+            ## [ApiExplorerSettings(IgnoreApi = true)]
+            ### 使用这个特性可以隐藏该接口不在Swagger文档中显示，但接口依然可以调用
+            </remarks>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Extensions.ApiControllerBase.UserInfo">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Filter.ErrorHandlingMiddleware">
+            <summary>
+            全局异常拦截器
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Filter.ErrorHandlingMiddleware.FormatMessage(System.String,System.Exception)">
+            <summary>
+            自定义返回格式
+            </summary>
+            <param name="throwMsg"></param>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Filter.ErrorHandlingMiddleware.Object2XmlString(System.Object)">
+            <summary>
+            对象转为Xml
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Filter.ErrorHandlingExtensions">
+            <summary>
+            自定义拦截器
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Filter.ErrorHandlingExtensions.UseErrorHandling(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            错误拦截
+            </summary>
+            <param name="builder"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Startup.Configuration">
+            <summary>
+            log4net 仓储库
+            </summary>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Swagger.CustomApiVersion">
+            <summary>
+            自定义版本
+            </summary>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Swagger.CustomApiVersion.ApiVersions">
+            <summary>
+            Api接口版本 自定义
+            </summary>
+        </member>
+        <member name="F:Titan.Blog.WebAPP.Swagger.CustomApiVersion.ApiVersions.v1">
+            <summary>
+            v1 版本
+            </summary>
+        </member>
+        <member name="F:Titan.Blog.WebAPP.Swagger.CustomApiVersion.ApiVersions.v2">
+            <summary>
+            v2 版本
+            </summary>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Swagger.CustomRouteAttribute">
+            <summary>
+            自定义路由 分为带版本和通用的路由
+            </summary>
+        </member>
+        <member name="P:Titan.Blog.WebAPP.Swagger.CustomRouteAttribute.GroupName">
+            <summary>
+            分组名称,是来实现接口 IApiDescriptionGroupNameProvider
+            </summary>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Swagger.CustomRouteAttribute.#ctor(System.String)">
+            <summary>
+            不带版本通用的路由
+            </summary>
+            <param name="controllerName"></param>
+        </member>
+        <member name="M:Titan.Blog.WebAPP.Swagger.CustomRouteAttribute.#ctor(Titan.Blog.WebAPP.Swagger.CustomApiVersion.ApiVersions,System.String)">
+            <summary>
+            带版本的路由
+            </summary>
+            <param name="version"></param>
+            <param name="controllerName"></param>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Swagger.RemoveBogusDefinitionsDocumentFilter">
+            <summary>
+            过滤model返回值
+            </summary>
+        </member>
+        <member name="T:Titan.Blog.WebAPP.Swagger.SwaggerUploadFileFilter">
+            <summary>
+            上传文件过滤器
+            </summary>
+        </member>
+        <member name="M:Blog.Core.AutoMapper.CustomProfile.#ctor">
+            <summary>
+            配置构造函数，用来创建关系映射
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,10 @@
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Model\bin\Debug\netcoreapp2.2\Titan.Blog.Model.deps.json
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Model\bin\Debug\netcoreapp2.2\Titan.Blog.Model.dll
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Model\bin\Debug\netcoreapp2.2\Titan.Blog.Model.pdb
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Model\bin\Debug\netcoreapp2.2\Titan.Blog.Model.xml
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Model\obj\Debug\netcoreapp2.2\Titan.Blog.Model.csprojAssemblyReference.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Model\obj\Debug\netcoreapp2.2\Titan.Blog.Model.csproj.CoreCompileInputs.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Model\obj\Debug\netcoreapp2.2\Titan.Blog.Model.AssemblyInfoInputs.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Model\obj\Debug\netcoreapp2.2\Titan.Blog.Model.AssemblyInfo.cs
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Model\obj\Debug\netcoreapp2.2\Titan.Blog.Model.dll
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Model\obj\Debug\netcoreapp2.2\Titan.Blog.Model.pdb

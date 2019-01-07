@@ -1,0 +1,9 @@
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.CodeTool\bin\Debug\netcoreapp2.2\Titan.Blog.CodeTool.deps.json
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.CodeTool\bin\Debug\netcoreapp2.2\Titan.Blog.CodeTool.dll
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.CodeTool\bin\Debug\netcoreapp2.2\Titan.Blog.CodeTool.pdb
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.CodeTool\obj\Debug\netcoreapp2.2\Titan.Blog.CodeTool.csprojAssemblyReference.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.CodeTool\obj\Debug\netcoreapp2.2\Titan.Blog.CodeTool.csproj.CoreCompileInputs.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.CodeTool\obj\Debug\netcoreapp2.2\Titan.Blog.CodeTool.AssemblyInfoInputs.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.CodeTool\obj\Debug\netcoreapp2.2\Titan.Blog.CodeTool.AssemblyInfo.cs
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.CodeTool\obj\Debug\netcoreapp2.2\Titan.Blog.CodeTool.dll
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.CodeTool\obj\Debug\netcoreapp2.2\Titan.Blog.CodeTool.pdb

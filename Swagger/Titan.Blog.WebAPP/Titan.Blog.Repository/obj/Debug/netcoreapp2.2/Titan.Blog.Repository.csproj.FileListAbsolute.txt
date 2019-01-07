@@ -1,0 +1,15 @@
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\bin\Debug\netcoreapp2.2\Titan.Blog.Repository.deps.json
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\bin\Debug\netcoreapp2.2\Titan.Blog.Repository.dll
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\bin\Debug\netcoreapp2.2\Titan.Blog.Repository.pdb
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\bin\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.dll
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\bin\Debug\netcoreapp2.2\Titan.Blog.Model.dll
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\bin\Debug\netcoreapp2.2\Titan.Blog.Infrastructure.pdb
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\bin\Debug\netcoreapp2.2\Titan.Blog.Model.pdb
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\bin\Debug\netcoreapp2.2\Titan.Blog.Model.xml
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\obj\Debug\netcoreapp2.2\Titan.Blog.Repository.csprojAssemblyReference.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\obj\Debug\netcoreapp2.2\Titan.Blog.Repository.csproj.CoreCompileInputs.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\obj\Debug\netcoreapp2.2\Titan.Blog.Repository.AssemblyInfoInputs.cache
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\obj\Debug\netcoreapp2.2\Titan.Blog.Repository.AssemblyInfo.cs
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\obj\Debug\netcoreapp2.2\Titan.Blog.Repository.csproj.CopyComplete
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\obj\Debug\netcoreapp2.2\Titan.Blog.Repository.dll
+C:\Code\Swagger\Titan.Blog.WebAPP-master\Titan.Blog.WebAPP\Titan.Blog.Repository\obj\Debug\netcoreapp2.2\Titan.Blog.Repository.pdb
