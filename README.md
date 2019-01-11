@@ -2,7 +2,7 @@
 ---
 
 * swagger-----服务导出各类型API文档，如：Word，PDF，Html  
-             博主：https://www.cnblogs.com/hjjblog/p/10231180.html
+             博主：https://www.cnblogs.com/hjjblog/p/10231180.html  
              Date:2019-01-05
 
 * JWT-----JSON Web Token本质上是一个独立的身份验证令牌，可以包含用户标识、用户角色和权限等信息，以及您可以存储任何其他信息（自包含）。任何人都可以轻松读取和解析，并使用密钥来验证真实性  
