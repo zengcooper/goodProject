@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>BMW.ConnectedAppCn.Template1</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="OmcConfigurationService\" />
+    <Folder Include="OmcConfigurationService\Validation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Template1.Provider.Contract\Template1.Provider.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

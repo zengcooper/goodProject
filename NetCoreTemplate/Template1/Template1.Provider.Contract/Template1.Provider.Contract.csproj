@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>BMW.ConnectedAppCn.Template1</RootNamespace>
+  </PropertyGroup>
+
+</Project>

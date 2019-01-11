@@ -1,0 +1,9 @@
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Common\bin\Debug\netstandard2.0\Template1.Common.deps.json
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Common\bin\Debug\netstandard2.0\Template1.Common.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Common\bin\Debug\netstandard2.0\Template1.Common.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Common\obj\Debug\netstandard2.0\Template1.Common.csprojAssemblyReference.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Common\obj\Debug\netstandard2.0\Template1.Common.csproj.CoreCompileInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Common\obj\Debug\netstandard2.0\Template1.Common.AssemblyInfoInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Common\obj\Debug\netstandard2.0\Template1.Common.AssemblyInfo.cs
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Common\obj\Debug\netstandard2.0\Template1.Common.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Common\obj\Debug\netstandard2.0\Template1.Common.pdb

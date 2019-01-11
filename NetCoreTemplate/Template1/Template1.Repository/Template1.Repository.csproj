@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>BMW.ConnectedAppCn.Template1</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Template1.Common\Template1.Common.csproj" />
+    <ProjectReference Include="..\Template1.Entity\Template1.Entity.csproj" />
+    <ProjectReference Include="..\Template1.EntityFrameworkCore\Template1.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>

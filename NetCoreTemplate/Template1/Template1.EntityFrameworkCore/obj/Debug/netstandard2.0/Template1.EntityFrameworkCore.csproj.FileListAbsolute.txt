@@ -1,0 +1,12 @@
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\bin\Debug\netstandard2.0\Template1.EntityFrameworkCore.deps.json
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\bin\Debug\netstandard2.0\Template1.EntityFrameworkCore.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\bin\Debug\netstandard2.0\Template1.EntityFrameworkCore.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\bin\Debug\netstandard2.0\Template1.Entity.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\bin\Debug\netstandard2.0\Template1.Entity.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\obj\Debug\netstandard2.0\Template1.EntityFrameworkCore.csprojAssemblyReference.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\obj\Debug\netstandard2.0\Template1.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\obj\Debug\netstandard2.0\Template1.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\obj\Debug\netstandard2.0\Template1.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\obj\Debug\netstandard2.0\Template1.EntityFrameworkCore.csproj.CopyComplete
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\obj\Debug\netstandard2.0\Template1.EntityFrameworkCore.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.EntityFrameworkCore\obj\Debug\netstandard2.0\Template1.EntityFrameworkCore.pdb

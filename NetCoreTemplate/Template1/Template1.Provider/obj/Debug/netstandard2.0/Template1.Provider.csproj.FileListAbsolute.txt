@@ -1,0 +1,12 @@
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\bin\Debug\netstandard2.0\Template1.Provider.deps.json
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\bin\Debug\netstandard2.0\Template1.Provider.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\bin\Debug\netstandard2.0\Template1.Provider.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\bin\Debug\netstandard2.0\Template1.Provider.Contract.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\bin\Debug\netstandard2.0\Template1.Provider.Contract.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\obj\Debug\netstandard2.0\Template1.Provider.csprojAssemblyReference.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\obj\Debug\netstandard2.0\Template1.Provider.csproj.CoreCompileInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\obj\Debug\netstandard2.0\Template1.Provider.AssemblyInfoInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\obj\Debug\netstandard2.0\Template1.Provider.AssemblyInfo.cs
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\obj\Debug\netstandard2.0\Template1.Provider.csproj.CopyComplete
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\obj\Debug\netstandard2.0\Template1.Provider.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider\obj\Debug\netstandard2.0\Template1.Provider.pdb

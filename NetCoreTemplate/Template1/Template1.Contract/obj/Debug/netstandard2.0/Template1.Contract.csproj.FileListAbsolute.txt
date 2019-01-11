@@ -1,0 +1,10 @@
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Contract\bin\Debug\netstandard2.0\Template1.Contract.deps.json
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Contract\bin\Debug\netstandard2.0\Template1.Contract.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Contract\bin\Debug\netstandard2.0\Template1.Contract.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Contract\bin\Debug\netstandard2.0\Template1.Contract.xml
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Contract\obj\Debug\netstandard2.0\Template1.Contract.csprojAssemblyReference.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Contract\obj\Debug\netstandard2.0\Template1.Contract.csproj.CoreCompileInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Contract\obj\Debug\netstandard2.0\Template1.Contract.AssemblyInfoInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Contract\obj\Debug\netstandard2.0\Template1.Contract.AssemblyInfo.cs
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Contract\obj\Debug\netstandard2.0\Template1.Contract.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Contract\obj\Debug\netstandard2.0\Template1.Contract.pdb

@@ -1,0 +1,16 @@
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\bin\Debug\netstandard2.0\Template1.Repository.deps.json
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\bin\Debug\netstandard2.0\Template1.Repository.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\bin\Debug\netstandard2.0\Template1.Repository.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\bin\Debug\netstandard2.0\Template1.Common.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\bin\Debug\netstandard2.0\Template1.Entity.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\bin\Debug\netstandard2.0\Template1.EntityFrameworkCore.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\bin\Debug\netstandard2.0\Template1.Common.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\bin\Debug\netstandard2.0\Template1.Entity.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\bin\Debug\netstandard2.0\Template1.EntityFrameworkCore.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\obj\Debug\netstandard2.0\Template1.Repository.csprojAssemblyReference.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\obj\Debug\netstandard2.0\Template1.Repository.csproj.CoreCompileInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\obj\Debug\netstandard2.0\Template1.Repository.AssemblyInfoInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\obj\Debug\netstandard2.0\Template1.Repository.AssemblyInfo.cs
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\obj\Debug\netstandard2.0\Template1.Repository.csproj.CopyComplete
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\obj\Debug\netstandard2.0\Template1.Repository.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Repository\obj\Debug\netstandard2.0\Template1.Repository.pdb

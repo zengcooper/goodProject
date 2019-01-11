@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Template1.Contract</name>
+    </assembly>
+    <members>
+        <member name="T:Template1.Contract.Dtos.Microservice.MicroserviceDto">
+            <summary>
+            MicroserviceDto
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.Id">
+            <summary>
+            Microservice primary key
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.Name">
+            <summary>
+            Microservice Name
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.Description">
+            <summary>
+            Microservice description
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.ServiceCode">
+            <summary>
+            Microservice Code
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.SortNo">
+            <summary>
+            SortNo
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.ServiceAliasName">
+            <summary>
+            Service AliasName
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.ServiceChineseName">
+            <summary>
+            Service Chinese Name
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.ServiceCategory">
+            <summary>
+            Service Category
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.Dependencies">
+            <summary>
+            Service Dependencies
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.CodingLanguage">
+            <summary>
+            Coding Language
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.ResponsibleTeam">
+            <summary>
+            Responsible Team
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.ProductOwner">
+            <summary>
+            Product Owner
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.TechniqueOwner">
+            <summary>
+            Technique Owner
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.ScrumMaster">
+            <summary>
+            ScrumMaster
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.Developers">
+            <summary>
+            Developers
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.ServiceConfluenceUrl">
+            <summary>
+            Service Confluence Url
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.RepositoryName">
+            <summary>
+            Repository Name
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Dtos.Microservice.MicroserviceDto.AzureResourceType">
+            <summary>
+            AzureResource Type
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.Enum.ActionType">
+            <summary>
+            ActionType
+            </summary>
+        </member>
+        <member name="F:Template1.Contract.Enum.ActionType.Add">
+            <summary>
+            Add
+            </summary>
+        </member>
+        <member name="F:Template1.Contract.Enum.ActionType.Delete">
+            <summary>
+            Delete
+            </summary>
+        </member>
+        <member name="F:Template1.Contract.Enum.ActionType.Update">
+            <summary>
+            Update
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.Enum.ResultCode">
+            <summary>
+            ResultCode
+            </summary>
+        </member>
+        <member name="F:Template1.Contract.Enum.ResultCode.InvalidParameter">
+            <summary>
+            InvalidParameter
+            </summary>
+        </member>
+        <member name="F:Template1.Contract.Enum.ResultCode.Success">
+            <summary>
+            Success
+            </summary>
+        </member>
+        <member name="F:Template1.Contract.Enum.ResultCode.ServiceInternalError">
+            <summary>
+            ServiceInternalError
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.Microservice.Enum.MicroserviceResultCode">
+            <summary>
+            MicroserviceResultCode
+            </summary>
+        </member>
+        <member name="F:Template1.Contract.Microservice.Enum.MicroserviceResultCode.NameExisted">
+            <summary>
+            Service Name have existed
+            </summary>
+        </member>
+        <member name="F:Template1.Contract.Microservice.Enum.MicroserviceResultCode.ServiceCodeExisted">
+            <summary>
+            Service Code have existed
+            </summary>
+        </member>
+        <member name="F:Template1.Contract.Microservice.Enum.MicroserviceResultCode.AddFail">
+            <summary>
+            Add Fail
+            </summary>
+        </member>
+        <member name="F:Template1.Contract.Microservice.Enum.MicroserviceResultCode.UpdateFail">
+            <summary>
+            Update Fail
+            </summary>
+        </member>
+        <member name="F:Template1.Contract.Microservice.Enum.MicroserviceResultCode.DeleteFail">
+            <summary>
+            Delete fail
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.Microservice.GetMicroservicesRequest">
+            <summary>
+            GetMicroservicesRequest
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.Microservice.GetMicroservicesResponse">
+            <summary>
+            GetMicroservicesResponse
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Microservice.GetMicroservicesResponse.Result">
+            <summary>
+            IList.MicroserviceDto
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.Microservice.GetMicroserviceDetailRequest">
+            <summary>
+            Get Microservice Detail Request
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Microservice.GetMicroserviceDetailRequest.MicroserviceId">
+            <summary>
+            Microservice Id
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.Microservice.GetMicroserviceDetailResponse">
+            <summary>
+            Get Microservice Detail Response
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Microservice.GetMicroserviceDetailResponse.Result">
+            <summary>
+            Microservice Detail
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.Microservice.GetMicroservicesByPageRequest">
+            <summary>
+            GetListByPageRequest
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Microservice.GetMicroservicesByPageRequest.Name">
+            <summary>
+            Microservice Name
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Microservice.GetMicroservicesByPageRequest.ServiceCode">
+            <summary>
+            Microservice Code
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.Microservice.GetMicroservicesByPageResponse">
+            <summary>
+            GetListByPageResponse
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.Microservice.GetMicroservicesByPageResponse.Result">
+            <summary>
+            IList.MicroserviceDto
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.PageRequestBase">
+            <summary>
+            PageRequestBase
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.PageRequestBase.PageIndex">
+            <summary>
+            PageIndex
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.PageRequestBase.PageSize">
+            <summary>
+            PageSize
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.PageResponseBase">
+            <summary>
+            BasePageResponse
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.PageResponseBase.TotalCount">
+            <summary>
+            TotalCount
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.RequestBase">
+            <summary>
+            BaseRequest
+            </summary>
+        </member>
+        <member name="T:Template1.Contract.ResponseBase">
+            <summary>
+            BaseResponse
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.ResponseBase.IsSuccess">
+            <summary>
+            IsSuccess
+            success:true, fail:false
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.ResponseBase.Code">
+            <summary>
+            Code
+            sucess:20000
+            fail:others
+            InvalidParameter:-1
+            ServiceInternalError:40000
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.ResponseBase.Msg">
+            <summary>
+            message
+            </summary>
+        </member>
+        <member name="P:Template1.Contract.ResponseBase.Result">
+            <summary>
+            data
+            </summary>
+        </member>
+    </members>
+</doc>

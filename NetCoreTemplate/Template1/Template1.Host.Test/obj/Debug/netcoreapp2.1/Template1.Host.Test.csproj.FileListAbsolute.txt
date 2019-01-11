@@ -1,0 +1,14 @@
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\bin\Debug\netcoreapp2.1\Template1.Host.Test.deps.json
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\bin\Debug\netcoreapp2.1\Template1.Host.Test.runtimeconfig.json
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\bin\Debug\netcoreapp2.1\Template1.Host.Test.runtimeconfig.dev.json
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\bin\Debug\netcoreapp2.1\Template1.Host.Test.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\bin\Debug\netcoreapp2.1\Template1.Host.Test.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\obj\Debug\netcoreapp2.1\Template1.Host.Test.csprojAssemblyReference.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\obj\Debug\netcoreapp2.1\Template1.Host.Test.csproj.CoreCompileInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\obj\Debug\netcoreapp2.1\Template1.Host.Test.AssemblyInfoInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\obj\Debug\netcoreapp2.1\Template1.Host.Test.AssemblyInfo.cs
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\obj\Debug\netcoreapp2.1\Template1.Host.Test.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Host.Test\obj\Debug\netcoreapp2.1\Template1.Host.Test.pdb

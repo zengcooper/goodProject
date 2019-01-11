@@ -1,0 +1,371 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Template1.Host</name>
+    </assembly>
+    <members>
+        <member name="T:Template1.Host.ApplicationLogKeyConsts">
+            <summary>
+            LogKeyConsts
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.EXECUTINGTIME">
+            <summary>
+            ExecutingTime
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.EXECUTEDTIME">
+            <summary>
+            ExecutedTime
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.HOSTNAME">
+            <summary>
+            Host Name
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.HOSTADDRESSES">
+            <summary>
+            Host Addresses
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.DISPLAYNAME">
+            <summary>
+            DisplayName
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.ACTIONPARAMETERS">
+            <summary>
+            ActionParameters
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.QueryString">
+            <summary>
+            QueryString
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.PATH">
+            <summary>
+            Path
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.CLIENTIP">
+            <summary>
+            ClientIp
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.DateTimeOffsetFormat">
+            <summary>
+            DateTimeOffset Format
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.APPID">
+            <summary>
+            ApplicationId
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.CALLOPERATIONID">
+            <summary>
+            ApplicationId
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.OS">
+            <summary>
+            Os
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.OSVERSION">
+            <summary>
+            OsVersion
+            </summary>
+        </member>
+        <member name="F:Template1.Host.ApplicationLogKeyConsts.APPVERSION">
+            <summary>
+            AppVersion
+            </summary>
+        </member>
+        <member name="T:Template1.Host.Attributes.AiHandleExceptionAttribute">
+            <summary>
+            AiHandleErrorAttribute
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Attributes.AiHandleExceptionAttribute.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            OnException
+            </summary>
+            <param name="filterContext"></param>
+        </member>
+        <member name="T:Template1.Host.Attributes.AuthTokenParameter">
+            <summary>
+            AuthTokenParameter
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Attributes.AuthTokenParameter.Apply(Swashbuckle.AspNetCore.Swagger.Operation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>        
+            OperationFilter Apply
+            </summary>        
+            <param name="operation"></param>        
+            <param name="context"></param>        
+        </member>
+        <member name="T:Template1.Host.Attributes.RequireApiHttpsAttribute">
+            <summary>
+            RequireApiHttpsAttribute
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Attributes.RequireApiHttpsAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            OnActionExecuting
+            </summary>
+            <param name="actionContext"></param>
+        </member>
+        <member name="T:Template1.Host.Controllers.BaseController">
+            <summary>
+            BaseController
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            OnActionExecuting
+            </summary>
+            <param name="context">ActionExecutingContext</param>
+        </member>
+        <member name="M:Template1.Host.Controllers.BaseController.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <summary>
+            OnActionExecuted
+            </summary>
+            <param name="context">ActionExecutedContext</param>
+        </member>
+        <member name="T:Template1.Host.Controllers.MicroserviceController">
+            <summary>
+            Microservice V1
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Controllers.MicroserviceController.#ctor(Template1.Services.Microservice.IMicroserviceService)">
+            <summary>
+            Microservice
+            </summary>
+            <param name="microserviceService">IMicroserviceService</param>
+        </member>
+        <member name="M:Template1.Host.Controllers.MicroserviceController.Get">
+            <summary>
+            Get all
+            </summary>
+            <returns>BaseResponse</returns>
+        </member>
+        <member name="M:Template1.Host.Controllers.MicroserviceController.Post(Template1.Contract.Dtos.Microservice.MicroserviceDto)">
+            <summary>
+            Add a new Microservice
+            </summary>
+            <remarks>
+            BaseResponse.Code
+            NameExisted:30001
+            ServiceCodeExisted:30002
+            AddFail:30003
+            </remarks>
+            <param name="microserviceDto">MicroserviceDto</param>
+            <returns>BaseResponse</returns>
+        </member>
+        <member name="M:Template1.Host.Controllers.MicroserviceController.Put(Template1.Contract.Dtos.Microservice.MicroserviceDto)">
+            <summary>
+            Update a new Microservice
+            </summary>
+            <remarks>
+            BaseResponse.Code
+            UpdateFail:30004
+            </remarks>
+            <param name="microserviceDto">MicroserviceDto</param>
+            <returns>BaseResponse</returns>
+        </member>
+        <member name="M:Template1.Host.Controllers.MicroserviceController.Delete(System.Int32)">
+            <summary>
+            Delete a microservice by Id
+            </summary>
+            <remarks>
+            BaseResponse.Code
+            DeleteFail:30005
+            </remarks>
+            <param name="id">Id</param>
+            <returns>BaseResponse</returns>
+        </member>
+        <member name="M:Template1.Host.Controllers.MicroserviceController.Get(System.Int32)">
+            <summary>
+            Get by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Template1.Host.Controllers.MicroserviceController.Get(Template1.Contract.Microservice.GetMicroservicesByPageRequest)">
+            <summary>
+            query all by condition
+            </summary>
+            <returns>Microservices</returns>
+        </member>
+        <member name="T:Template1.Host.Controllers.MicroserviceMonitorController">
+            <summary>
+            MicroserviceMonitor
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Controllers.MicroserviceMonitorController.IsAlive">
+            <summary>
+            Check microservice is alive
+            </summary>
+            <returns>I am alive</returns>
+        </member>
+        <member name="T:Template1.Host.Extensions.StartupExtensions">
+            <summary>
+            Startup Extensions
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Extensions.StartupExtensions.AddRegisters(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add Registers
+            </summary>
+            <param name="services">IServiceCollection</param>
+        </member>
+        <member name="M:Template1.Host.Extensions.StartupExtensions.AddDbContext(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add DbContext
+            </summary>
+            <param name="services">IServiceCollection</param>
+        </member>
+        <member name="M:Template1.Host.Extensions.StartupExtensions.AddSwaggerService(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add SwaggerService
+            </summary>
+            <param name="services">IServiceCollection</param>
+        </member>
+        <member name="M:Template1.Host.Extensions.StartupExtensions.AddSwaggerConfig(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Add SwaggerConfig
+            </summary>
+            <param name="app">IApplicationBuilder</param>
+        </member>
+        <member name="T:Template1.Host.Infrastructure.Bootstrap">
+            <summary>
+            Bootstrap
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Infrastructure.Bootstrap.Initialize(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Initialize
+            </summary>
+            <param name="services">IServiceCollection</param>
+        </member>
+        <member name="P:Template1.Host.Infrastructure.Bootstrap.DemoConfiguration">
+            <summary>
+            DemoConfiguration
+            </summary>
+        </member>
+        <member name="P:Template1.Host.Infrastructure.Bootstrap.AppInsightsTelemetryClient">
+            <summary>
+            AppInsightsTelemetry Client
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Infrastructure.Bootstrap.GetService(System.Type)">
+            <summary>
+            GetService
+            </summary>
+            <param name="serviceType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Template1.Host.Infrastructure.Bootstrap.GetServices(System.Type)">
+            <summary>
+            GetServices
+            </summary>
+            <param name="serviceType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Template1.Host.Infrastructure.Installers.ControllerInstaller">
+            <summary>
+            ControllerInstaller
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Infrastructure.Installers.ControllerInstaller.AddControllersRegister(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            AddServicesRegister
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:Template1.Host.Infrastructure.Installers.RepositoriesInstaller">
+            <summary>
+            Repositories Installer
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Infrastructure.Installers.RepositoriesInstaller.AddRepositoryRegister(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add Repository Register
+            </summary>
+            <param name="services">IServiceCollection</param>
+        </member>
+        <member name="T:Template1.Host.Infrastructure.Installers.ServicesInstaller">
+            <summary>
+            ServicesInstaller
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Infrastructure.Installers.ServicesInstaller.AddServicesRegister(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            AddServicesRegister
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:Template1.Host.Infrastructure.Installers.ValidationInstaller">
+            <summary>
+            Validation Installer
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Infrastructure.Installers.ValidationInstaller.AddValidationsRegister(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add Validations Register
+            </summary>
+            <param name="services">IServiceCollection</param>
+        </member>
+        <member name="T:Template1.Host.Program">
+            <summary>
+            Program
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Program.Main(System.String[])">
+            <summary>
+            Main
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Template1.Host.Program.BuildWebHost(System.String[])">
+            <summary>
+            BuildWebHost
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Template1.Host.Startup">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Contrutor
+            </summary>
+            <param name="configuration">IConfiguration</param>
+        </member>
+        <member name="P:Template1.Host.Startup.Configuration">
+            <summary>
+            IConfiguration
+            </summary>
+        </member>
+        <member name="M:Template1.Host.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services">IServiceCollection</param>
+        </member>
+        <member name="M:Template1.Host.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.AspNetCore.Hosting.IApplicationLifetime)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app">IApplicationBuilder</param>
+            <param name="env">IHostingEnvironment</param>
+            <param name="aft">IApplicationLifetime</param>
+        </member>
+    </members>
+</doc>

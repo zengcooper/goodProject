@@ -1,0 +1,9 @@
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Entity\bin\Debug\netstandard2.0\Template1.Entity.deps.json
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Entity\bin\Debug\netstandard2.0\Template1.Entity.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Entity\bin\Debug\netstandard2.0\Template1.Entity.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Entity\obj\Debug\netstandard2.0\Template1.Entity.csprojAssemblyReference.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Entity\obj\Debug\netstandard2.0\Template1.Entity.csproj.CoreCompileInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Entity\obj\Debug\netstandard2.0\Template1.Entity.AssemblyInfoInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Entity\obj\Debug\netstandard2.0\Template1.Entity.AssemblyInfo.cs
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Entity\obj\Debug\netstandard2.0\Template1.Entity.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Entity\obj\Debug\netstandard2.0\Template1.Entity.pdb

@@ -1,0 +1,14 @@
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\bin\Debug\netstandard2.0\Template1.Provider.Proxy.deps.json
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\bin\Debug\netstandard2.0\Template1.Provider.Proxy.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\bin\Debug\netstandard2.0\Template1.Provider.Proxy.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\bin\Debug\netstandard2.0\Template1.Provider.Contract.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\bin\Debug\netstandard2.0\Template1.Provider.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\bin\Debug\netstandard2.0\Template1.Provider.Contract.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\bin\Debug\netstandard2.0\Template1.Provider.pdb
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\obj\Debug\netstandard2.0\Template1.Provider.Proxy.csprojAssemblyReference.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\obj\Debug\netstandard2.0\Template1.Provider.Proxy.csproj.CoreCompileInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\obj\Debug\netstandard2.0\Template1.Provider.Proxy.AssemblyInfoInputs.cache
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\obj\Debug\netstandard2.0\Template1.Provider.Proxy.AssemblyInfo.cs
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\obj\Debug\netstandard2.0\Template1.Provider.Proxy.csproj.CopyComplete
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\obj\Debug\netstandard2.0\Template1.Provider.Proxy.dll
+C:\Users\QXX7791\source\repos\Template1\Template1\Template1.Provider.Proxy\obj\Debug\netstandard2.0\Template1.Provider.Proxy.pdb
