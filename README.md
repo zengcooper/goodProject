@@ -14,6 +14,8 @@
 * Dapper Demo --------- 后端使用NetCore WebApi+dapper构建的后端架构
 
 
+* Auth用户验证 Demo -----Auth验证后端架构Demo
+
 ps：该项目很多代码来源于网络，仅供学习和技术交流。如有版权问题，请自行解决。
 
 
