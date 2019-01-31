@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RolePrivilegeManagement", "RolePrivilegeManagement.csproj", "{19F56CA4-F4EE-4BF7-8233-47FDB3DD8970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19F56CA4-F4EE-4BF7-8233-47FDB3DD8970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F56CA4-F4EE-4BF7-8233-47FDB3DD8970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F56CA4-F4EE-4BF7-8233-47FDB3DD8970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F56CA4-F4EE-4BF7-8233-47FDB3DD8970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6BD9EDF-7B34-42B9-AEF1-E46C8427D170}
+	EndGlobalSection
+EndGlobal
