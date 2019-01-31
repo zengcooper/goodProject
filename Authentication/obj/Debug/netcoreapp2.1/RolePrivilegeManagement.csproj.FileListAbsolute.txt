@@ -1,0 +1,11 @@
+C:\code2\RolePrivilegeManagement\bin\Debug\netcoreapp2.1\RolePrivilegeManagement.deps.json
+C:\code2\RolePrivilegeManagement\bin\Debug\netcoreapp2.1\RolePrivilegeManagement.runtimeconfig.json
+C:\code2\RolePrivilegeManagement\bin\Debug\netcoreapp2.1\RolePrivilegeManagement.runtimeconfig.dev.json
+C:\code2\RolePrivilegeManagement\bin\Debug\netcoreapp2.1\RolePrivilegeManagement.dll
+C:\code2\RolePrivilegeManagement\bin\Debug\netcoreapp2.1\RolePrivilegeManagement.pdb
+C:\code2\RolePrivilegeManagement\obj\Debug\netcoreapp2.1\RolePrivilegeManagement.csprojAssemblyReference.cache
+C:\code2\RolePrivilegeManagement\obj\Debug\netcoreapp2.1\RolePrivilegeManagement.csproj.CoreCompileInputs.cache
+C:\code2\RolePrivilegeManagement\obj\Debug\netcoreapp2.1\RolePrivilegeManagement.AssemblyInfoInputs.cache
+C:\code2\RolePrivilegeManagement\obj\Debug\netcoreapp2.1\RolePrivilegeManagement.AssemblyInfo.cs
+C:\code2\RolePrivilegeManagement\obj\Debug\netcoreapp2.1\RolePrivilegeManagement.dll
+C:\code2\RolePrivilegeManagement\obj\Debug\netcoreapp2.1\RolePrivilegeManagement.pdb
